@@ -21,6 +21,15 @@ public class Employee {
 	public void empAdd() {
 		System.out.println("Employee Add is Avadi,Chennai");
 	}
+	public void empRef() {
+		System.out.println("Employee Ref is Prakash");
+	}
+	//<<<<<<< HEAD
+
+	//=======
+
+	//>>>>>>> da4d4c62da75545ac5c16ca3c341ee7a3a37020a
+
 	public static void main(String[] args) {
 		Employee e = new Employee();
 		e.empId();
