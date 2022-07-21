@@ -18,6 +18,9 @@ public class Employee {
 		System.out.println("Employee RegNo="+regNo+"\t"
 				+"Employee Weight="+weight+"\n"+"Employee Office="+office);
 	}
+	public void empRef() {
+		System.out.println("Employee Ref is Prakash");
+	}
 	public static void main(String[] args) {
 		Employee e = new Employee();
 		e.empId();
